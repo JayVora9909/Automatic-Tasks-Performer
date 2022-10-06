@@ -20,14 +20,14 @@ while not_done:
         if pyautogui.locateCenterOnScreen('Username.png', confidence=0.9) is not None:
             x, y = pyautogui.locateCenterOnScreen('Username.png', confidence=0.9)
             pyautogui.click(x, y)
-            pyautogui.typewrite('21d100023')
+            pyautogui.typewrite('user id')
             time.sleep(.1)
     if pyautogui.locateCenterOnScreen('Password.png', confidence=0.9) is not None:
         time.sleep(.1)
         if pyautogui.locateCenterOnScreen('Password.png', confidence=0.9) is not None:
             x, y = pyautogui.locateCenterOnScreen('Password.png', confidence=0.9)
             pyautogui.click(x, y)
-            pyautogui.typewrite('Jay@1350')
+            pyautogui.typewrite('Password')
             time.sleep(.1)
     if pyautogui.locateCenterOnScreen('Signin.png', confidence=0.9) is not None:
         time.sleep(.1)
